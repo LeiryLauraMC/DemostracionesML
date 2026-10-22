@@ -1,6 +1,6 @@
 # Demostraciones de Machine Learning
 
-**Autora:** Leiry Laura Mares Cure
+**Estudiante:** Leiry Laura Mares Cure
 
 **Programa:** Maestría en Ingeniería Biomédica, Universidad del Norte
 
