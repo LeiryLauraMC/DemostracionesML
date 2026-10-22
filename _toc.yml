@@ -1,0 +1,28 @@
+format: jb-book
+root: intro
+parts:
+  - caption: Preliminares
+    chapters:
+      - file: notacion
+  - caption: "Capítulo 1. Teoría del aprendizaje y k-NN"
+    numbered: true
+    chapters:
+      - file: knn/ecuacion_2_2
+      - file: knn/desigualdad_1nn
+  - caption: "Capítulo 2. Regresión Ridge y Lasso"
+    numbered: true
+    chapters:
+      - file: ridge/desarrollo_3_7_y_3_8
+      - file: ridge/ecuacion_3_7
+      - file: ridge/centrado_respuesta
+      - file: ridge/ecuacion_3_11
+      - file: ridge/ecuacion_3_12
+      - file: ridge/lasso
+  - caption: "Capítulo 3. Árboles de decisión y boosting"
+    numbered: true
+    chapters:
+      - file: arboles/ejercicio_12_6
+      - file: arboles/adaboost_5_2_5_3
+  - caption: Bibliografía
+    chapters:
+      - file: referencias

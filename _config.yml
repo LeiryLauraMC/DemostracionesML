@@ -1,0 +1,32 @@
+title: Demostraciones de Machine Learning
+author: Leiry Laura Mares Cure
+copyright: "2026"
+only_build_toc_files: true
+
+bibtex_bibfiles:
+  - references.bib
+
+execute:
+  execute_notebooks: "off"
+
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - amsmath
+    - colon_fence
+    - deflist
+
+html:
+  use_issues_button: false
+  use_repository_button: false
+  home_page_in_navbar: true
+
+latex:
+  latex_documents:
+    targetname: demostraciones_ml.tex
+
+sphinx:
+  config:
+    language: es
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
+    html_show_sourcelink: false
